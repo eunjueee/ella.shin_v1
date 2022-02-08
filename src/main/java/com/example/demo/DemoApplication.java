@@ -8,13 +8,13 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-		System.out.println("test_tt");
-		// 주석 달기
-		/* 주석달기 */
+		DemoApplication d = new DemoApplication();
+		d.testMethod();
 	}
 
-	/** 메소드만들기 */
+
 	public void testMethod(){
+		System.out.println("test_tt");
 	}
 
 
