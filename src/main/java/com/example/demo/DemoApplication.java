@@ -15,7 +15,6 @@ public class DemoApplication {
 
 	/** 메소드만들기 */
 	public void testMethod(){
-		// 테스트임..?
 	}
 
 
