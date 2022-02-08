@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class RestContorller {
-    @RequestMapping(value = "/test")
+    @RequestMapping(value = "/mas/mainbord")
     public String test(){
-        return "test";
+        return "thymeleaf/mas/mainbord.html";
     }
 
 }
