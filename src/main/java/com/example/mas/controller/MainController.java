@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class MainController {
-    @RequestMapping(name="/main")
+    @RequestMapping(name="/mas/main")
     public String mainboard(Model model){
         Resource resource = new Resource();
         initailResource(resource);
         model.addAttribute("resource", resource);
-        return  "thymeleaf/mas/mainMas.html";
+        return  "thymeleaf/mas/mainMas";
     }
 
     /** 자원 초기화 */
